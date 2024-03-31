@@ -1,0 +1,9 @@
+ctransformers
+faiss-cpu
+langchain==0.0.331
+pypdf
+python-box
+sentence-transformers
+fastapi~=0.110.0
+PyYAML~=6.0.1
+torch~=2.2.1
