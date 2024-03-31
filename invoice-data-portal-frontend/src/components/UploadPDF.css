@@ -1,0 +1,29 @@
+.upload-pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-pdf-container input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .upload-pdf-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-pdf-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
